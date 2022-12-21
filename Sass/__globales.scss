@@ -9,7 +9,6 @@ $gray-color: #e6e9ed;
     padding: 0 ;
 }
 body{
-    position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
@@ -23,6 +22,7 @@ a{
 }
 
 .home-body{
+    position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
