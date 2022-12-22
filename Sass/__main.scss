@@ -36,7 +36,7 @@
     display: grid;
 }
 .blogs-news-container {
-    background-color: #e6e9ed;
+    background-color: $color-secondary;
     padding: 0 50px 40px;
 }
 .blogs-main-news {
@@ -44,17 +44,25 @@
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 2fr;
 }
+
+.blogs-main-news h3{
+    font-weight: bold;
+}
+
 .blogs-news-img-container {
     grid-column: 1;
 }
 .blogs-news-img-container img {
     width: 85%;
+    height: 100%;
 }
 .blogs-news-info-container {
     grid-column: 2;
 }
 .blogs-news-info-container p {
     margin-bottom: 35px;
+    color: black;
+    font-weight: 600;
 }
 
 .blogs-main-button{

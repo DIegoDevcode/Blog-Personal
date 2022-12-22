@@ -13,7 +13,7 @@ header .header-icons-container {
   height: 50px;
   display: -ms-grid;
   display: grid;
-  background-color: #47cfac;
+  background-color: #943221;
 }
 
 header .header-icons-container .icons {
@@ -48,7 +48,8 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  font-family: "Roboto", monospace;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
 }
 
 a {
@@ -155,7 +156,7 @@ nav .profile-link a {
 }
 
 .blogs-news-container {
-  background-color: #e6e9ed;
+  background-color: white;
   padding: 0 50px 40px;
 }
 
@@ -178,6 +179,10 @@ nav .profile-link a {
   -ms-grid-column: 2;
 }
 
+.blogs-main-news h3 {
+  font-weight: bold;
+}
+
 .blogs-news-img-container {
   -ms-grid-column: 1;
   grid-column: 1;
@@ -185,6 +190,7 @@ nav .profile-link a {
 
 .blogs-news-img-container img {
   width: 85%;
+  height: 100%;
 }
 
 .blogs-news-info-container {
@@ -194,6 +200,8 @@ nav .profile-link a {
 
 .blogs-news-info-container p {
   margin-bottom: 35px;
+  color: black;
+  font-weight: 600;
 }
 
 .blogs-main-button {
@@ -231,6 +239,7 @@ nav .profile-link a {
 
 .blogs-posts-container .post-container img {
   width: 100%;
+  height: 100%;
 }
 
 .blogs-button {
@@ -249,7 +258,7 @@ footer {
   width: 100%;
   height: 80px;
   background-color: #22272d;
-  border-top: 35px solid #47cfac;
+  border-top: 35px solid #943221;
   text-align: center;
 }
 
@@ -277,6 +286,12 @@ footer p {
 
 .blog-main-container article h1 {
   font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.blog-main-container article p {
+  font-size: 20px;
+  padding-bottom: 20px;
 }
 
 .contac-main-container {
@@ -294,17 +309,18 @@ footer p {
 }
 
 .contac-main-container div a {
-  border-bottom: 1px solid black;
   padding-bottom: 5px;
 }
 
 .contac-main-container .contact-rigth, .contact-left {
   text-align: initial;
-  margin-top: 85px;
+  margin-top: 100px;
+  padding-top: 15px;
 }
 
 .contac-main-container img {
   width: 100px;
+  margin: auto;
 }
 
 .profile-main-container {
@@ -330,7 +346,7 @@ footer p {
 
 .profile-main-proyects h3 {
   border-bottom: 1px solid #cdd2da;
-  padding-bottom: 35px;
+  padding-bottom: 40px;
   text-align: center;
 }
 
@@ -343,6 +359,22 @@ footer p {
 
 .proyect-container {
   padding: 0 5px;
+}
+
+.proyect-container h4 {
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.proyect-button {
+  border: 1px solid #47cfac;
+  padding: 10px 15px;
+  font-size: 12px;
+}
+
+.proyect-button:hover {
+  color: white;
+  background-color: #48CFAD;
 }
 
 @media (max-width: 900px) {
